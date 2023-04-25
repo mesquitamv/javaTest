@@ -59,6 +59,15 @@ public class UsaLista {
       lista.inserirNoInicio(new Contato("Inicio", "323-7341"));        
       System.out.println("============================");
 
+      // Insere no fim
+      System.out.println("Adiciona novo contato ao inicio do array (Teste)");
+      lista.inserir(new Contato("Teste3", "323-7341"));        
+      System.out.println("============================");
+
+      //    Mostra nova lista
+      System.out.println("Nova lista de contatos");
+      lista.mostrar();
+      System.out.println("============================");
       
        //    Mostra nova lista
        System.out.println("Nova lista de contatos");
