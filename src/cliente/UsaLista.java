@@ -14,9 +14,6 @@ public class UsaLista {
       //  lista.inserir(new Contato("Gerson", "233-2332"));
       //  lista.inserir(new Contato("Sandra", "546-7473"));
       //  lista.inserir(new Contato("Anna", "854-6432")); 
-       
-
-       lista.remover(1);
 
        System.out.println("Array Atual");
        lista.mostrar();
